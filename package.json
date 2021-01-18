@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/epr3/vue-cli-plugin-playwright-jest/issues"
   },
-  "homepage": "https://github.com/epr3/vue-cli-plugin-playwright-jest#readme"
+  "homepage": "https://github.com/epr3/vue-cli-plugin-playwright-jest#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
 }
