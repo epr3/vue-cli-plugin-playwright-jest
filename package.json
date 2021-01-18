@@ -1,0 +1,25 @@
+{
+  "name": "vue-cli-plugin-playwright-jest",
+  "version": "0.0.1",
+  "description": "e2e-playwright plugin with jest for vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epr3/vue-cli-plugin-playwright-jest.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "playwright-e2e",
+    "jest"
+  ],
+  "author": "Eduard Predescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epr3/vue-cli-plugin-playwright-jest/issues"
+  },
+  "homepage": "https://github.com/epr3/vue-cli-plugin-playwright-jest#readme"
+}
