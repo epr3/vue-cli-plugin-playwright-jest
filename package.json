@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
+    "expect-playwright": "^0.3.1",
     "jest": "^26.6.3",
     "jest-playwright-preset": "^1.4.4",
     "jest-watch-typeahead": "^0.6.1",
