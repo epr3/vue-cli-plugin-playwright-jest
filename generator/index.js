@@ -21,7 +21,11 @@ module.exports = (api, options, rootOptions, invoking) => {
 
 const applyESLint = (module.exports.applyESLint = (api) => {
   api.extendPackage({
+    devDependencies: {
+      "eslint-plugin-jest-playwright": "^0.2.1",
+    },
     eslintConfig: {
+      extends: ["plugin:jest-playwright/recommended"],
       overrides: [
         {
           files: ["**/tests/e2e/**/*.spec.{j,t}s?(x)"],
