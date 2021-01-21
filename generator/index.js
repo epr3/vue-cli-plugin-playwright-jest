@@ -53,6 +53,20 @@ const applyTS = (module.exports.applyTS = (api, invoking) => {
         ) {
           parsed.compilerOptions.types.push("jest");
         }
+
+        if (
+          parsed.compilerOptions.types &&
+          !parsed.compilerOptions.types.includes("jest-playwright-preset")
+        ) {
+          parsed.compilerOptions.types.push("jest-playwright-preset");
+        }
+
+        if (
+          parsed.compilerOptions.types &&
+          !parsed.compilerOptions.types.includes("expect-playwright")
+        ) {
+          parsed.compilerOptions.types.push("expect-playwright");
+        }
         files["tsconfig.json"] = JSON.stringify(parsed, null, 2) + "\n";
       }
     });
